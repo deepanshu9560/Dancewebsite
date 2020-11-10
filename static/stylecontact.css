@@ -1,0 +1,37 @@
+#cont{
+    margin: 10px 0px;
+    margin-top: 30px;
+    color: rgb(128 129 190);
+
+}
+.myinput{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(119, 118, 118);
+    padding: 6px 5px;
+    font-size: 16px;
+}
+#foot{
+    margin-top: 3.5%;
+}
+.btn{
+    display: block;
+    margin: 0px auto;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(128 129 190 / 0.98);
+    color: white;
+    width: 10%;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(110, 110, 253);
+}

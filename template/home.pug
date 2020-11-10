@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content     
+    section#dance
+        h1 Welcome to dance website
+        p Dance with us
+    h1 Our mission
+    section#mission
+      div.container
+        h2 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/m3.png", alt="error")
+          div.card-content
+            p ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis fuga impedit.
+      div.container
+        h2 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/m2.png", alt="error")
+          div.card-content
+            p ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis fuga impedit.
+      div.container
+        h2 Dance perfection
+        div.card-box
+          div.card-img
+            img(src="/static/m4.png", alt="error")
+          div.card-content
+            p ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis fuga impedit.
+    h1 Our sponsors
+      div#container
+        img(src="/static/sponsor.png", alt="error")
+    
+    
